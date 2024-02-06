@@ -1,34 +1,40 @@
-# teste_cy_hu
-
-projeto de amostra de teste  básico da cypress.
-## Pre-requirements
-É necessário ter Node.js e npm instalados para executar este projeto.
-
-Usei as versões `v18.16.1` e `9.8.1` do Node.js e npm, respectivamente. Eu sugiro que você use as mesmas versões ou versões posteriores.
 
 
-## Installation
-para instalar package.josn executar npm init via terminal na pasta do seu projeto
 
-Execute `npm install` (ou `npm i` para a versão curta) para instalar as dependências de desenvolvimento.
+## teste_cy_hu
+Este é um projeto de amostra para testes básicos com Cypress.
 
-###  Desctop
+ ## Pré-requisitos
+É necessário ter o Node.js e o npm instalados para executar este projeto.
 
-Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo headless em uma janela de visualização de desktop.
+Utilizei as versões v18.16.1 e 9.8.1 do Node.js e npm, respectivamente. Recomendo que você utilize as mesmas versões ou versões posteriores.
 
-## Tests
-Você pode executar os testes simulando uma janela de visualização desktop ou móvel
+## Instalação
+Para inicializar o arquivo package.json, execute npm init no terminal dentro da pasta do seu projeto.
 
+Em seguida, execute npm install (ou npm i para uma versão abreviada) para instalar as dependências de desenvolvimento.
 
-### Mobile
-execute `npm run test:mobile` para executar o teste no modo headless.
+## Desktop
+Execute npm test (ou npm t para uma versão abreviada) para executar os testes no modo headless em uma janela de visualização de desktop.
 
-ou execute `npm run cy:open` para abrir o cypress no modo interativo
+## Testes
+Você pode executar os testes simulando uma janela de visualização desktop ou móvel.
 
-## headless
-execute `npm cypress run `  termina e exibe na saída do console um resumo dos resultados dos testes, incluindo o número total de testes, quantos passaram, falharam, estão pendentes
+ ## Móvel
+Execute npm run test:mobile para executar os testes no modo headless para visualização móvel.
 
+Ou execute npm run cy:open para abrir o Cypress no modo interativo.
 
-## descrição sobre os testes
+## Headless
+Execute npm run cypress run para finalizar e exibir na saída do console um resumo dos resultados dos testes, incluindo o número total de testes, quantos passaram, falharam e estão pendentes.
 
+## Rodar Eslint
+Execute npm run lint para rodar o Eslint.
 
+## Descrição dos Testes
+Foram realizados todos os testes possíveis. Após a execução, foram identificadas algumas melhorias necessárias no código, pois algumas falhas não estão sendo exibidas. Foi observado o aviso do Eslint: "warning: use data-* attribute selectors instead of classes or tag names cypress/require-data-selectors". No entanto, ao seguir essa recomendação, o código não é reconhecido pelo Cypress.
+
+Para executar os testes, é necessário navegar até a pasta cypress, em seguida, acessar a pasta e2e e, por fim, abrir o arquivo login.cy.js e substituir o e-mail pelo seu para efetuar os testes de login, que levarão até a confirmação do e-mail.
+
+## Boa práticas de desnvolvimento
+Recomendamos fortemente o uso do ESLint para garantir a conformidade com o estilo de codificação estabelecido. O arquivo .eslintrc contém as configurações específicas do ESLint para este projeto. Dentro da pasta estão as configurações e suas finalidades:
