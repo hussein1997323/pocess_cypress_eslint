@@ -37,4 +37,4 @@ Foram realizados todos os testes possíveis. Após a execução, foram identific
 Para executar os testes, é necessário navegar até a pasta cypress, em seguida, acessar a pasta e2e e, por fim, abrir o arquivo login.cy.js e substituir o e-mail pelo seu para efetuar os testes de login, que levarão até a confirmação do e-mail.
 
 ## Boa práticas de desenvolvimento
-Recomendamos fortemente o uso do ESLint para garantir a conformidade com o estilo de codificação estabelecido. O arquivo .eslintrc contém as configurações específicas do ESLint para este projeto. Dentro da pasta estão as configurações e suas finalidades:
+.eslintrc contém as configurações específicas do ESLint para este projeto. Dentro da pasta estão as configurações e suas finalidades:
