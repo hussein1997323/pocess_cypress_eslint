@@ -5,7 +5,7 @@
     "rules": {
       "cypress/no-force": "error",
       "cypress/assertion-before-screenshot": "error",
-      "cypress/require-data-selectors": "warn",
-      "cypress/no-pause": "error"
+      "cypress/require-data-selectors": "warn"
+     // "cypress/no-pause": "error"
     }
   }

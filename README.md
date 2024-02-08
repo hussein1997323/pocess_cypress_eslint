@@ -38,3 +38,4 @@ Para executar os testes, é necessário navegar até a pasta cypress, em seguida
 
 ## Boa práticas de desenvolvimento
 .eslintrc contém as configurações específicas do ESLint para este projeto. Dentro da pasta estão as configurações e suas finalidades:
+
