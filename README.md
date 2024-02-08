@@ -40,4 +40,11 @@ Para executar os testes, é necessário navegar até a pasta cypress, em seguida
 .eslintrc contém as configurações específicas do ESLint para este projeto. Dentro da pasta estão as configurações e suas finalidades:
 
 ## observação
-Para entra  realizar o login com sucesso precisa entra na pasta e2e pos de entra acessar arquivo 'login.cy.js' troca e-mail que está no it('entra na pagina com sucesso'). precisa roda no terminal VS code 'npx cypress open' , e fazer os teste qunado chegar na etapa de confirmação de email tem que entra no seu email e fazer a confirmação vai realizar com sucesso.
+Para realizar o login com sucesso, siga estas instruções:
+
+Navegue até o diretório "e2e" no seu projeto.
+Abra o arquivo 'login.cy.js'.
+No teste 'entra na página com sucesso', substitua o endereço de e-mail atualmente inserido no método 'it()' pelo seu endereço de e-mail válido.
+Após isso, execute o seguinte comando no terminal do VS Code: npx cypress open. Isso abrirá a interface do Cypress, onde você poderá executar os testes.
+
+Quando chegar à etapa de confirmação de e-mail, acesse sua caixa de entrada de e-mail e confirme o e-mail recebido. Após a confirmação, o teste será concluído com sucesso
